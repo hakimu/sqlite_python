@@ -1,4 +1,6 @@
-### This is a Python script that calls a sqlite3 database and is instrumented using the `@newrelic.agent.background_task()` decorator.
+### This is a Python script that calls a sqlite3 database. 
+
+This non-web script is instrumented using the `@newrelic.agent.background_task()` decorator.
 
 In the `newrelic.ini` config file:
 
